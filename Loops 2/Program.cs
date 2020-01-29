@@ -29,9 +29,12 @@ namespace Loops_2
                 input = Convert.ToString(Console.ReadLine());
             }
 
+            if (input == "No")
+            {
+                Console.WriteLine("Average Score: " + (examgrade / result));
+            }
 
-
-            Console.WriteLine("Average Score: " + (examgrade / result));
+            
 
             Console.ReadKey();
         }
